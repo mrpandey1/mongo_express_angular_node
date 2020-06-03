@@ -8,7 +8,7 @@ export class PostCreateComponent{
   enteredValue=''
   newPost='No content'
 
-  onAddPost(postInput:HTMLTextAreaElement){
+  onAddPost(){
     this.newPost=this.enteredValue;
   }
 }
